@@ -22,6 +22,13 @@ Learning from data: a toolkit
   - 'Tis a poor craftsman who blames his tools!
 
 
+Learning from others: version control
+========================================================
+![Step 0: version it](git.png)
+- Always, always, always use version control.
+- Murphy's law is strictly enforced!
+
+
 Visualization as a process
 ========================================================
 - Exploration 
@@ -60,11 +67,28 @@ summary(cars)
  3rd Qu.:19.0   3rd Qu.: 56  
  Max.   :25.0   Max.   :120  
 ```
-
 - Problem: most people are visual
+
+Let's plot the same thing
+========================================================
+
+```r
+library(ggplot2)
+ggplot(data=cars, aes(x=speed, y=dist)) + 
+  geom_smooth() + 
+  geom_point() + 
+  theme_bw() + 
+  xlab('Speed when brakes applied') +
+  ylab('Distance to stop car') + 
+  ggtitle('Speed vs. stopping distance for various cars')
+```
 
 Plots >> tables
 ========================================================
-![plot of chunk unnamed-chunk-2](LaDataVizSlides-figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-3](LaDataVizSlides-figure/unnamed-chunk-3.png) 
 
 
+Interaction
+========================================================
+<!--html_preserve--><label for="rows">How many cars?</label>
+<input id="rows" type="number" value="5"/><!--/html_preserve--><!--html_preserve--><div id="517ff6ee564d7315" class="shiny-html-output"></div><!--/html_preserve-->
