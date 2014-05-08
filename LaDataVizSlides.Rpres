@@ -1,0 +1,42 @@
+Visualizing Structural Change
+========================================================
+author: Tim Triche, Jr. 
+date: May 8th, 2014
+
+Learning from data: foundations
+========================================================
+![Ackoff's DIKW pyramid](DIKW.png)
+
+
+Visualization as a process
+========================================================
+- Exploration 
+  - Make the acquaintance of the data
+  - Descriptive stats, PCA, mapping...
+- Modeling
+  - Build models, test hypotheses, make predictions
+  - Evaluate model fit, significance, accuracy
+- Iteration
+  - Identify missing pieces
+  - Lather, rinse, repeat
+
+
+Exploration: what's in this data?
+========================================================  
+![Exploration step](exploration.png)
+- Descriptive statistics (tables, plots)
+- Exploratory analysis (PCA, correlograms)
+
+
+Descriptive statistics
+========================================================
+```{r}
+summary(cars)
+```
+
+Exploratory analysis
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
