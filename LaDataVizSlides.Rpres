@@ -58,6 +58,7 @@ summary(cars)
 ```
 - Problem: most people are visual
 
+
 Let's plot the same thing
 ========================================================
 ```{r, eval=FALSE}
@@ -70,6 +71,7 @@ ggplot(data=cars, aes(x=speed, y=dist)) +
   ylab('Distance to stop car') + 
   ggtitle('Speed vs. stopping distance for various cars')
 ```
+
 
 Plots >> tables
 ========================================================
@@ -85,13 +87,87 @@ ggplot(data=cars, aes(x=speed, y=dist)) +
 ```
 
 
-Interaction
+Exploratory interaction
 ========================================================
-```{r, echo = FALSE}
-library(shiny)
-numericInput("rows", "How many cars?", 5)
+(in-browser shiny version of the same)
 
-renderTable({
-  head(cars, input$rows)
-})
-```
+
+Exploratory interaction part II
+========================================================
+(in-browser PCA/tour of more complex data)
+
+
+Modeling
+========================================================
+
+
+Model fit diagnostics
+========================================================
+
+
+Prediction diagnostics
+========================================================
+
+
+Refinement
+========================================================
+
+
+Simpson's paradox
+========================================================
+
+
+Anscombe's Quartet
+========================================================
+
+
+Model selection
+========================================================
+
+
+Lasso CV and path plots
+========================================================
+
+
+Time series
+========================================================
+
+
+Smoothing
+========================================================
+
+
+Model averaging
+========================================================
+
+
+Model likelihood over time
+========================================================
+
+
+Logistic model averaging
+========================================================
+
+
+Time-dependent covariates
+========================================================
+
+
+More diagnostics
+========================================================
+
+
+Apophenia
+========================================================
+
+
+Final steps
+========================================================
+
+
+Suggestions
+========================================================
+
+
+Acknowledgements
+========================================================

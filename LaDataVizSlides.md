@@ -69,6 +69,7 @@ summary(cars)
 ```
 - Problem: most people are visual
 
+
 Let's plot the same thing
 ========================================================
 
@@ -83,12 +84,93 @@ ggplot(data=cars, aes(x=speed, y=dist)) +
   ggtitle('Speed vs. stopping distance for various cars')
 ```
 
+
 Plots >> tables
 ========================================================
 ![plot of chunk unnamed-chunk-3](LaDataVizSlides-figure/unnamed-chunk-3.png) 
 
 
-Interaction
+Exploratory interaction
 ========================================================
-<!--html_preserve--><label for="rows">How many cars?</label>
-<input id="rows" type="number" value="5"/><!--/html_preserve--><!--html_preserve--><div id="517ff6ee564d7315" class="shiny-html-output"></div><!--/html_preserve-->
+(in-browser shiny version of the same)
+
+
+Exploratory interaction part II
+========================================================
+(in-browser PCA/tour of more complex data)
+
+
+Modeling
+========================================================
+
+
+Model fit diagnostics
+========================================================
+
+
+Prediction diagnostics
+========================================================
+
+
+Refinement
+========================================================
+
+
+Simpson's paradox
+========================================================
+
+
+Anscombe's Quartet
+========================================================
+
+
+Model selection
+========================================================
+
+
+Lasso CV and path plots
+========================================================
+
+
+Time series
+========================================================
+
+
+Smoothing
+========================================================
+
+
+Model averaging
+========================================================
+
+
+Model likelihood over time
+========================================================
+
+
+Logistic model averaging
+========================================================
+
+
+Time-dependent covariates
+========================================================
+
+
+More diagnostics
+========================================================
+
+
+Apophenia
+========================================================
+
+
+Final steps
+========================================================
+
+
+Suggestions
+========================================================
+
+
+Acknowledgements
+========================================================
