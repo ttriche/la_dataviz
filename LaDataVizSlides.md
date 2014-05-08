@@ -3,9 +3,23 @@ Visualizing Structural Change
 author: Tim Triche, Jr. 
 date: May 8th, 2014
 
+
 Learning from data: foundations
 ========================================================
 ![Ackoff's DIKW pyramid](DIKW.png)
+
+
+Learning from data: a toolkit
+========================================================
+- Today I am going to use Rstudio, shiny, and d3.js
+  - Rstudio makes it easy to do sensible things
+  - shiny makes it easy to play with your data
+  - d3.js makes it easy for others to interact
+  
+- You can use whatever you prefer
+  - Use Python, Julia, or Excel for all it matters
+  - Just don't cry when Excel eats your project
+  - 'Tis a poor craftsman who blames his tools!
 
 
 Visualization as a process
@@ -13,22 +27,24 @@ Visualization as a process
 - Exploration 
   - Make the acquaintance of the data
   - Descriptive stats, PCA, mapping...
+  
 - Modeling
-  - Build models, test hypotheses, make predictions
-  - Evaluate model fit, significance, accuracy
+  - Build models, make predictions
+  - Evaluate model fit, predictions
+  
 - Iteration
   - Identify missing pieces
   - Lather, rinse, repeat
 
 
-Exploration: what's in this data?
+What's in this data?
 ========================================================  
 ![Exploration step](exploration.png)
 - Descriptive statistics (tables, plots)
 - Exploratory analysis (PCA, correlograms)
 
 
-Descriptive statistics
+Descriptive tables
 ========================================================
 
 ```r
@@ -45,9 +61,10 @@ summary(cars)
  Max.   :25.0   Max.   :120  
 ```
 
+- Problem: most people are visual
 
-Exploratory analysis
+Plots >> tables
 ========================================================
-
 ![plot of chunk unnamed-chunk-2](LaDataVizSlides-figure/unnamed-chunk-2.png) 
+
 
